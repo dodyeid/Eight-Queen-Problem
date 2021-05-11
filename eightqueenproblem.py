@@ -1,7 +1,7 @@
-# Program: 8 Queen Problem Solutions
+# Program: eightqueenproblem.py
 # Author: Dody Eid
 # Date: May 10, 2021
-# Purpose: Python Training
+# Purpose: Solve the 8 Queen Problem in Chess
 
 
 # IMPORTS
@@ -83,7 +83,7 @@ def checkIfDuplicates(listOfElems):
 def show_solutions(*args):
     for i in range(1,len(args)+1):
         print((i,args[i-1]))
-
+        
 # initate variable to keep track of number of solutions
 sols = 0
 
